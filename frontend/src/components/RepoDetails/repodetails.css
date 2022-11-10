@@ -1,0 +1,59 @@
+.repo-details-loading{
+    position: relative;
+    margin-top: 240px;
+    text-align: center;
+}
+.repo-details-header h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #455590;
+
+}
+
+.ant-page-header-heading-title{
+    color: #455590 !important;
+}
+.ant-page-header{
+    padding: 0 !important;
+}
+.ant-page-header-back-button{
+    color: #455590 !important;
+}
+.repo-results{
+    margin-left: 30px;
+    position: relative;
+}
+.turn-green {
+    background-color: rgb(102, 216, 117) !important;
+    text-align: center;
+}
+.turn-white {
+    text-align: center;
+}
+.refresh-btn{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+.refresh-button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #455590;
+    color: white;
+    border: none;
+}
+.csv-link{
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #455590;
+    border-radius: 5px;
+    margin-left: 0.2rem;
+}
+.csv-link:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.pi-download{
+    margin-right: 0.5rem !important;
+}

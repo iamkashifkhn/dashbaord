@@ -1,0 +1,73 @@
+.sidebar {
+    background-color: #ebecec;
+    padding: 10px 30px;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: hidden;
+    width: 250px;
+    position: fixed;
+}
+.sidebar-logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.app-logo {
+    width: 260px;
+}
+.user-info {
+    display: flex;
+    /* width: 100%; */
+    background: #fff;
+    padding: 0px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px white solid;
+}
+.user-name {
+    font-weight: bold;
+    margin: 0px;
+    /* margin-top: 20px; */
+}
+.user-email{
+    font-size: small;
+}
+.user-image-wrapper {
+    width: 50px;
+    height: 50px;
+}
+.user-text-wrapper{
+    margin-left: 13px;
+}
+
+.sidebar-link{
+    cursor: pointer;
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 5px;
+    color: #455590;
+    align-items: center;
+}
+
+.link-icon {
+    padding-right: 10px;
+    text-decoration: none;
+}
+.sidebar-links{
+    color: #455590;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: -50px;
+}
+/* .sidebar-links:hover {
+    color: #768ee2;
+    transition-duration: 300ms;
+    font-weight: bold;
+} */

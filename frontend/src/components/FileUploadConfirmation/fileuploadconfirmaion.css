@@ -1,0 +1,13 @@
+.file-upload-confirmation-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    text-align: center;
+    color: #455590;
+    position: relative;
+    text-align: center;
+}
+.file-upload-confirmation-heading > h3{
+    font-size: 24px;
+}

@@ -1,0 +1,107 @@
+.repo-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: space-between;
+    padding: 15px 30px;
+    margin-top: 5px;
+}
+.repo-name:hover{
+    background-color: #f5f5f5;
+}
+.repo-name span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    color: #455590;
+    text-align: left;
+}
+.name-date > span.date{
+ font-size: 14px;
+ color: rgb(156, 154, 154);
+}
+.view-details{
+    background-color: #455590;
+    color: #fff;
+    margin-left: 250px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.name-date{
+    display: flex;
+    flex-direction: column;
+}
+.repos-loader{
+    position: relative;
+    margin-top: 240px;
+}
+.disable-this{
+    display: none !important;
+}
+.search-bar{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #455590;
+}
+.search-bar:focus{
+    outline: none;
+}
+
+.arrow-up{
+    padding: 5px;
+    background-color: #455590;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.arrow-down{
+    padding: 5px;
+    background-color: #455590;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pick-date{
+    border: 1px solid #455590 !important;
+    margin-right: 5px !important;
+    height: 35px !important;
+    border-radius: 5px !important;
+}
+.scan-repo-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0px 25px;
+}
+.scan-button{
+    background-color: #455590;
+    padding: 5px 15px;
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.scan-button:hover{
+    background-color: #455590 !important;
+}
+.scan-link{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.scan-link:hover{
+    color: #fff;
+}
+.pi-plus-circle{
+    font-size: 14px;
+}

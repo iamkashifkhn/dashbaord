@@ -1,0 +1,12 @@
+.reports-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reports-page > h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #455590;
+    margin-bottom: 20px;
+}

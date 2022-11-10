@@ -1,0 +1,52 @@
+.widgets{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.widget {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 1px 1px rgb(100 116 139 / 6%), 0px 1px 2px rgb(100 116 139 / 10%);
+    height: 100%;
+    width: 300px;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.widget-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.widget-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pi-book{
+    padding: 10px;
+    background-color: #FFB020;
+    color: #fff;
+    border-radius: 5px;
+}
+.pi-check-circle{
+    padding: 10px;
+    background-color: rgb(12, 207, 12);
+    color: #fff;
+    border-radius: 5px;
+}
+.pi-times-circle{
+    padding: 10px;
+    background-color: #D14343;
+    color: #fff;
+    border-radius: 5px;
+}
+.noOfProject{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.title{
+    color: #65748B;
+    font-size: 0.85rem;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.inner-main-login-page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://res.cloudinary.com/studentassister/image/upload/v1630523109/612fcea0e5673_ndk1pq.jpg"); */
+    background-image: url("https://drive.google.com/uc?export=view&id=17ipnWi45REB6ejaA4uRVY0eyObS23Cuh");
+    background-image: url("https://drive.google.com/uc?export=view&id=17ipnWi45REB6ejaA4uRVY0eyObS23Cuh");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+.bg-overlay{
+    background: rgba(255, 255, 255, 0.700);
+    min-height: 100vh;
+}
+
+.right-login{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-heading{
+    color: #42495b;
+}    
+.login-logo{
+    width: 420px;
+}

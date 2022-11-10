@@ -1,0 +1,19 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-header {
+  display: flex;
+  padding: 10px 20px;
+  color: #455590;
+  align-items: center;
+  background-color: #ebecec;
+}
+.dashboard-icon {
+  padding-right: 10px;
+  text-decoration: none;
+}
+.dashboard-para {
+  padding-top: 10px;
+  font-size: 18px;
+}

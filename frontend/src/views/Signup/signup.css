@@ -1,0 +1,90 @@
+.inner-main-signup-page {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    /* background-image: url("https://res.cloudinary.com/studentassister/image/upload/v1630523109/612fcea0e5673_ndk1pq.jpg");
+     */
+    background-image: url("https://drive.google.com/uc?export=view&id=17ipnWi45REB6ejaA4uRVY0eyObS23Cuh");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+  }
+
+  .left-signup {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e4e4e4; */
+
+  }
+  .right-signup {
+    display: flex;
+    flex: 1;
+    /* background-color: #e4e4e4; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-heading {
+    color: #42495b;
+  }
+  .btn-primary {
+    width: 400px !important;
+    background-color: #455590 !important;
+    padding: 10px !important;
+    border: none !important;
+  }
+  .btn-primary:hover {
+    background-color: #5a6ba7 !important;
+  }
+  .signin-google {
+    background-color: #42495b !important;
+    border: none !important;
+    transition: all 0.3s ease 0s !important;
+  }
+  .signin-google:hover {
+    background-color: #555d74 !important;
+  }
+  .signinwithgoogle {
+    height: 22px;
+    width: 22px;
+    padding-right: 8px;
+  }
+  span > a {
+    text-decoration: none;
+  }
+  
+  .field-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .field-checkbox label {
+    margin-left: 10px;
+  }
+  .powered-by {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: -100px; */
+  }
+  .powered-by p {
+    font-weight: bold;
+    padding-top: 14px;
+    font-size: 12px;
+  }
+  .powered-by > img {
+    width: 110px;
+    height: 40px;
+  }
+  .bg-overlay-signup{
+    background: rgba(255, 255, 255, 0.700);
+  }
+  .signup-logo{
+    width: 420px;
+  }
